@@ -1,0 +1,28 @@
+initialize tailwindcss
+    open terminal, type: npm init -y
+
+create build folder
+create build/img folder
+create src folder
+
+install prettier
+    open terminal, type: npm i -D prettier-plugin-tailwindcss
+
+run tailwindcss
+    open terminal, type: npm run tailwind
+
+https://emojipedia.org/
+
+https://unicode-table.com/en/
+
+run prettier
+    open terminal, type: npm run prettier
+
+github
+    git init
+    git add .
+    git commit -m "first commit"
+
+    git remote add origin https://github.com/Erik-Varga/owt.git
+    git branch -M main
+    git push -u origin main
