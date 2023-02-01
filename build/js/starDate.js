@@ -5,6 +5,6 @@ const planetX = document.getElementById('planet-x');
 const planets = ['Mercury', 'Venus', 'Mars', 'Jupiter', 'Saturn', 'Neptune', 'Pluto', 'Planet-X'];
 const random = Math.floor(Math.random() * planets.length);
 
-washAmt.textContent = '0';
-starDate.textContent = 'Stardate: ???';
+washAmt.textContent = '200';
+starDate.textContent = 'Stardate: DEC|JAN';
 planetX.textContent = planets[random];
