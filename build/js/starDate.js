@@ -6,5 +6,5 @@ const planets = ['Mercury', 'Venus', 'Mars', 'Jupiter', 'Saturn', 'Neptune', 'Pl
 const random = Math.floor(Math.random() * planets.length);
 
 washAmt.textContent = '200';
-starDate.textContent = 'Stardate: DEC|JAN';
+starDate.textContent = 'Stardate: DEC | JAN';
 planetX.textContent = planets[random];
